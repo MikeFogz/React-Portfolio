@@ -1,5 +1,6 @@
-import React from 'react'
+import React from 'react';
 import mikefogz from '../Assets/mikefogz_smx_150.jpg';
+import './Home.css';
 
 function Home() {
     return (
