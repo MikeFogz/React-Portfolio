@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Card() {
+function Row1() {
     return (
         <div class="row">
 
@@ -41,4 +41,4 @@ function Card() {
     )
 }
 
-export default Card
+export default Row1
