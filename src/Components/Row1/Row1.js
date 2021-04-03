@@ -14,7 +14,7 @@ function Row1() {
           </a>
           <a href="https://github.com/MikeFogz/API-Project1" target="_blank">
             <img
-            src="./Assets/CouchOrCovidScreenShot200x175.png"
+            src="../Assets/CouchOrCovidScreenShot200x175.png"
             alt="API Project 1"
             class="portfolio-img"
             />
@@ -31,7 +31,7 @@ function Row1() {
           </a>
           <a href="https://github.com/MikeFogz/DayPlanner" target="_blank">
             <img
-            src="./Assets/DayPlanner200x175.png"
+            src="../Assets/DayPlanner200x175.png"
             alt="Day Planner"
             class="portfolio-img"
             />

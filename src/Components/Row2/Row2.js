@@ -13,7 +13,7 @@ function Row2() {
           </a>
           <a href="https://github.com/MikeFogz/PasswordGenerator" target="_blank">
             <img
-            src="./Assets/PasswordGenerator200x163.png"
+            src="../Assets/PasswordGenerator200x163.png"
             alt="Password Generator"
             class="portfolio-img"
             />

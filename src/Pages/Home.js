@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../Components/Navbar/Navbar.js'
+
 
 function Home() {
     return (
@@ -13,7 +13,7 @@ function Home() {
                 <div class="row">
                     <div class="col-sm-12 col-md-12 col-lg-12">
                     <img
-                        src="./Assets/mikefogz_smx_150.jpg"
+                        src="../Assets/mikefogz_smx_150.jpg"
                         alt="MikeFogz_smx"
                         class="about-img"
                     />
@@ -25,13 +25,13 @@ function Home() {
                         Feel free to connect with me or view more of my work here: 
                     </p>
                     <a href="https://github.com/MikeFogz" target="_blank">
-                        <img class="icons" src="./Assets/GitHub-Mark-64px.png" alt="GitHub-Mark-64px"/>
+                        <img class="icons" src="../Assets/GitHub-Mark-64px.png" alt="GitHub-Mark-64px"/>
                     </a>
                     <a href="https://www.linkedin.com/in/mikefogz/" target="_blank">
-                        <img class="icons" src="./Assets/linkedin.png" alt="linkedin-icon"/>
+                        <img class="icons" src="../Assets/linkedin.png" alt="linkedin-icon"/>
                     </a>
                     <a href="https://docs.google.com/document/d/13opxgMsA2yWkHjmS0SvK_ehHBlDVsKnrl8WgNgFI0TU/edit?usp=sharing" target="_blank">
-                        <img class="icons" src="./Assets/pdf-file.png" alt="resume-pdf"/>
+                        <img class="icons" src="../Assets/pdf-file.png" alt="resume-pdf"/>
                     </a>
                     </div>
                 </div>

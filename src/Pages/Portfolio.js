@@ -10,7 +10,6 @@ function Portfolio() {
                 <Highlight/>
                 <Row1/>
                 <Row2/>
-
         </div>
     )
 }
