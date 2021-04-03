@@ -3,8 +3,7 @@ import React from 'react'
 
 function Home() {
     return (
-    <div>
-        <div class="container">
+        <div className="container">
             <div class="row">
                 <div class="col-sm-12">
                 <div class="page-header">
@@ -38,7 +37,6 @@ function Home() {
                 </div>
             </div>
         </div>
-    </div>
     )
 }
 

@@ -1,3 +1,4 @@
+import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import './App.css';
 import Portfolio from './Pages/Portfolio';
@@ -11,9 +12,15 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/about" component={Home} />
-          <Route exact path="/portfolio" component={Portfolio} />
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route exact path="/about">
+            <Home />
+          </Route>
+          <Route exact path="/portfolio">
+            <Portfolio/>
+          </Route>
         </Switch>
         <Footer />
       </BrowserRouter>

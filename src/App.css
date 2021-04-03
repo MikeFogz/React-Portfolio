@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background: url(../src/Assets/memphis-colorful.png);
+  height: 100%;
 }
 
 .App-logo {
