@@ -7,9 +7,9 @@ import './Home.css';
 
 function Home() {
     return (
-        <div className="container">
+        <div className="container bg-info">
             <div className="row">
-                <div className="col-sm-6 card">
+                <div className="col-sm-8 card">
                     <div className="page-header">
                         <h1>About Me</h1>
                     </div>
@@ -21,7 +21,7 @@ function Home() {
                             className="about-img"
                         />
                         <p>
-                            Hi, I'm Mike Fogarty, a coding student in UC Berkeley's Full Stack Web Dev Bootcamp. 
+                            Hi, I'm Mike Fogarty, a recent graduate from UC Berkeley's Full Stack Web Dev Bootcamp. 
                             While I learn code I will continue to update this portfolio site. I plan to refactor as I progress in my bootcamp and may start a fresh portfolio upon completion.
                         </p>
                         <p>
@@ -38,6 +38,9 @@ function Home() {
                         </a>
                         </div>
                     </div>
+                </div>
+                <div className="col-sm-4 card">
+                    <h1>Contact Info</h1>
                 </div>
             </div>
         </div>
