@@ -3,12 +3,14 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import './App.css';
 import Portfolio from './Pages/Portfolio';
 import Home from './Pages/Home';
-import Navbar from './Components/Navbar/Navbar'
+import Navbar from './Components/Navbar/Navbar';
 import Footer from "./Components/Footer/Footer";
+import background from "./Assets/memphis-colorful.png"
+
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{ backgroundImage: `url(${background})` }}>
       <BrowserRouter>
         <Navbar />
         <Switch>
