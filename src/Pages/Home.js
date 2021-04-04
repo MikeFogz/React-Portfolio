@@ -32,10 +32,12 @@ function Home() {
                 </div>
                 <div className="col-sm-1"></div>
                 <div className="col-sm-3 card contact">
-                    <h1>Contact</h1>
+                    <h1>Contact Me</h1>
+                    <p>Mike Fogarty</p>
                     <ul>
                         <li>925-683-2025</li>
                         <li>mikefogz@gmail.com</li>
+                        <li>@MikeFogz</li>
                     </ul>
                     <h6>Connect & view my work:</h6>
                     <div className="row contact">
