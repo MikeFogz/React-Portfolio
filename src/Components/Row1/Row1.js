@@ -1,39 +1,41 @@
-import React from 'react'
+import React from 'react';
+import couch from '../../Assets/CouchOrCovidScreenShot200x175.png'
+import planner from '../../Assets/DayPlanner200x175.png'
 
 function Row1() {
     return (
-        <div class="row">
+        <div className="row">
 
-        <div class="col-sm-6 col-md-6 col-lg-6">
-          <h3 class="portfolio-text">Group Project: Couch or Covid</h3>
+        <div className="col-sm-6 col-md-6 col-lg-6">
+          <h3 className="portfolio-text">Group Project: Couch or Covid</h3>
           <a href="https://github.com/MikeFogz/API-Project1" target="_blank">
-            <p class="description-text">GitHub Repo</p>
+            <p className="description-text">GitHub Repo</p>
           </a>
           <a href="https://mikefogz.github.io/API-Project1/" target="_blank">
-            <p class="description-text">Deployed Page</p>
+            <p className="description-text">Deployed Page</p>
           </a>
           <a href="https://github.com/MikeFogz/API-Project1" target="_blank">
             <img
-            src="../Assets/CouchOrCovidScreenShot200x175.png"
+            src={couch}
             alt="API Project 1"
-            class="portfolio-img"
+            className="portfolio-img"
             />
           </a>
         </div>
 
-        <div class="col-sm-6 col-md-6 col-lg-6">
-          <h3 class="portfolio-text">Day Planner</h3>
+        <div className="col-sm-6 col-md-6 col-lg-6">
+          <h3 className="portfolio-text">Day Planner</h3>
           <a href="https://github.com/MikeFogz/DayPlanner" target="_blank">
-            <p class="description-text">GitHub Repo</p>
+            <p className="description-text">GitHub Repo</p>
           </a>
           <a href="https://mikefogz.github.io/DayPlanner/" target="_blank">
-            <p class="description-text">Deployed Page</p>
+            <p className="description-text">Deployed Page</p>
           </a>
           <a href="https://github.com/MikeFogz/DayPlanner" target="_blank">
             <img
-            src="../Assets/DayPlanner200x175.png"
+            src={planner}
             alt="Day Planner"
-            class="portfolio-img"
+            className="portfolio-img"
             />
           </a>
         </div>
