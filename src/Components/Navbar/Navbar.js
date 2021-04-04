@@ -19,17 +19,17 @@ function Navbar() {
             </button>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="nav navbar-nav navbar-right">
-                <li className="nav-item">
-                    <Link to="/">
-                        <a className="nav-link" href="index.html">About</a>
-                    </Link>
-                </li>
-                <li className="nav-item">
-                    <Link to="/portfolio">
-                        <a className="nav-link" href="portfolio.html">Portfolio</a>
-                    </Link>
-                    
-                </li>
+                    <li className="nav-item">
+                        <Link to="/">
+                            <a className="nav-link" href="index.html">About</a>
+                        </Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link to="/portfolio">
+                            <a className="nav-link" href="portfolio.html">Portfolio</a>
+                        </Link>
+                        
+                    </li>
                 </ul>
             </div>
             </nav>
